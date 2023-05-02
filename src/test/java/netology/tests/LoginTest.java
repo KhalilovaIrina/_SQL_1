@@ -22,7 +22,7 @@ public class LoginTest {
     }
 
     @AfterAll
-    public void cleanBD() {
+    public static void cleanBD() {
         DBHelper.removeDB();
     }
 
